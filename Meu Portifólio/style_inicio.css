@@ -6,7 +6,7 @@ body {
     color: rgb(223, 172, 223);
     font-family: 'Arima', sans-serif;
 }
-/* HEADER */
+/*HEADER*/
 
 .header-wrapper {
     height: 100vh;
@@ -66,7 +66,7 @@ a:hover {
     }
 }
 
-/* MENU HAMBURGUER */
+/*MENU HAMBURGUER*/
 
 .checkbox-container {
     display: flex;
@@ -90,7 +90,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: blanchedalmond;
+    background-color: #ffffff;
     position: absolute;
     border-radius: 4px;
     transition: 0.5 ease-in-out;
@@ -111,6 +111,52 @@ a:hover {
     transform: rotate(0);
 }
 
+#toggle {
+    display: none;
+}
+
+/*Menu*/
+
+.menu {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    z-index: -1;
+    transition: 400ms ease-in-out 0;
+}
+
+.menu-itens {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0;
+}
+
+.menu-itens ul {
+   list-style-type: none;
+}
+
+.menu-itens ul li {
+    margin: 10px 0;
+    color: purple;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
 
 
 
