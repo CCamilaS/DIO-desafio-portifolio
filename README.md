@@ -1,5 +1,5 @@
 # DIO-desafio-portifolio
-Nesse repositório vou criar meu portifólio pessoal, com animações e funções em HTML e CSS
+Nesse repositório vou criar meu portifólio pessoal, com animações e funções em HTML e CSS :raising_hand:
 
 
 
